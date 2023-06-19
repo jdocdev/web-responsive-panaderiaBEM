@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panadería BEM</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/logo/logo-panaderia-bem-01.svg" />
+    <!-- Reset de estilos -->
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <!-- Estilos Generales -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/banner.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="./assets/css/team.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__logo"
+        src="./assets/img/logo/logo-panaderia-bem-01.svg"
+        alt="panaderia BEM"
+      />
+      <nav class="header__menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link--active" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Products</a>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <section class="banner">
+        <h2 class="banner__titulo">Panadería y Repostería</h2>
+      </section>
+
+      <section class="about">
+        <h2 class="about__title">Sobre Nosotros</h2>
+        <p class="about__text">
+          En Panadería BEM nos caracterizamos por adecuarnos a las necesidades
+          de nuestros clientes, por eso no dudes en contactarnos si tienes un
+          requerimiento especial en tus productos de panadería, pastelería o
+          repostería. Estaremos felices de trabajar contigo para encontrar el
+          producto que colme tus expectativas.
+        </p>
+      </section>
+
+      <section class="products">
+        <div class="product">
+          <img
+            class="product__img"
+            src="./assets/img/fotos/Panaderia.jpg"
+            alt=""
+          />
+          <div class="product__info">
+            <h3 class="product__title">Panadería</h3>
+            <p class="product__text">
+              Tostadas, Almojábana, Croissant, Pan tajado, Pandequeso...
+            </p>
+            <button class="product__button button--primary">Ver Productos</button>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            class="product__img"
+            src="./assets/img/fotos/Pasteleria.jpg"
+            alt=""
+          />
+          <div class="product__info">
+            <h3 class="product__title">Pastelería</h3>
+            <p class="product__text">
+              Palo de Queso, Pastel de Guayaba, pastel de Arequipe...
+            </p>
+            <button class="product__button button--primary">Ver Productos</button>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            class="product__img"
+            src="./assets/img/fotos/Reposteria.jpg"
+            alt=""
+          />
+          <div class="product__info">
+            <h3 class="product__title">Repostería</h3>
+            <p class="product__text">
+              Torta de Chocolate, Torta veteada, Moros, Alfajores, Milhojas...
+            </p>
+            <button class="product__button button--primary">Ver Productos</button>
+          </div>
+        </div>
+        <div class="product">
+          <img class="product__img" src="./assets/img/fotos/Integral.jpg" alt="">
+          <div class="product__info">
+            <h3 class="product__title">Integral</h3>
+            <p class="product__text">
+              Pan integral, Con uvas pasas, Doble fibra, Multigrano
+            </p>
+            <button class="product__button button--primary">Ver Productos</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+            <h3 class="team__title">Nuestro Equipo</h3>
+            <h3 class="team__text">Nuestro talentoso equipo de chefs de panadería combina habilidad y pasión para crear delicias irresistibles. Descubre a los expertos detrás de nuestros exquisitos productos horneados y conoce su dedicación por ofrecer calidad y sabor en cada creación.</h3>
+            <div class="team__collaborators">
+                <div class="people">
+                    <div class="people__image people__image--antonio"></div>
+                    <p class="people__name">Antonio</p>
+                    <p class="people__job">Chef de Cuisine</p>
+                </div>
+                <div class="people">
+                    <div class="people__image people__image--maria"></div>
+                    <p class="people__name">Maria</p>
+                    <p class="people__job">Sous Chef</p>
+                </div>
+                <div class="people">
+                    <div class="people__image people__image--carlos"></div>
+                    <p class="people__name">Carlos</p>
+                    <p class="people__job">Chef de Partie</p>
+                </div>
+            </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contact">
+            <ul class="contact">
+                <li class="contact__item">Medellín - Colombia Calle 80 N° 80- 80</li>
+                <li class="contact__item">Línea Única: +57 1 234 56 78</li>
+                <li class="contact__item">pedidos@panaderiabem.com </li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <ul class="social">
+                <li class="social__item"><a class="social__link" href=""><i class="bi bi-instagram"></i></a></li>
+                <li class="social__item"><a class="social__link" href=""><i class="bi bi-facebook"></i></a></li>
+                <li class="social__item"><a class="social__link" href=""><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+  </body>
+</html>

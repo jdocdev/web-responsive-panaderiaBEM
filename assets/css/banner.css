@@ -1,0 +1,27 @@
+@import url(normalize.css);
+
+.banner {
+    position: relative;
+    background-image: url(/assets/img/fotos/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner__titulo {
+    color: var(--blanco);
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:950px) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}

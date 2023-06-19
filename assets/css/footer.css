@@ -1,0 +1,39 @@
+@import url(normalize.css);
+
+.footer {
+  padding: 2rem;
+  background-color: var(--cafe-30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact,
+.social {
+  display: flex;
+}
+
+.contact__item {
+  margin:0 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--cafe-100);
+}
+
+.social__link {
+  color: var(--cafe-100);
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 950px) {
+
+  .footer > * {
+    margin: 1rem 0;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}

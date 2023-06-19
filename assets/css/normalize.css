@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --cafe-100:#7f491c;
+    --cafe-50:#f9b95b;
+    --cafe-30:#ffd076;
+    --blanco:#fff;
+    --gris:#f0f0f1;
+    --negro:#000;
+}
+
+html, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Reutilizables */
+.button--primary {
+    border: 2px solid var(--cafe-100);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--cafe-100);
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.5s;
+    border-radius: 5px;
+}
+
+.button--primary:hover {
+    color: var(--blanco);
+    background-color: var(--cafe-100);
+}

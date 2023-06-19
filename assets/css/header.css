@@ -1,0 +1,47 @@
+@import url(normalize.css);
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--gris);
+}
+
+.header__logo {
+  height: 9vh;
+}
+
+.menu__list {
+  display: flex;
+  list-style: none;
+}
+
+.menu__item {
+  margin-left: 2rem;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: var(--cafe-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.menu__link:hover {
+  text-decoration: underline solid 2px;
+}
+
+.menu__link.menu__link--active {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 560px) {
+    .menu__item{
+        margin-left: 1rem;
+    }
+    
+    .menu__link {
+        font-size: 1rem;
+    }
+}
