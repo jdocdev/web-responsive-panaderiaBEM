@@ -34,7 +34,6 @@
 
 .people__image {
   position: relative;
-  background-image: url(/assets/img/fotos/Banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,15 +45,15 @@
 }
 
 .people__image--antonio {
-  background-image: url(/assets/img/fotos/chefUno.jpg);
+  background-image: url(https://jdocdev.github.io/web-responsive-panaderiaBEM/assets/img/fotos/chefUno.jpg);
 }
 
 .people__image--maria {
-  background-image: url(/assets/img/fotos/chefDos.jpg);
+  background-image: url(https://jdocdev.github.io/web-responsive-panaderiaBEM/assets/img/fotos/chefDos.jpg);
 }
 
 .people__image--carlos {
-  background-image: url(/assets/img/fotos/chefTres.jpg);
+  background-image: url(https://jdocdev.github.io/web-responsive-panaderiaBEM/assets/img/fotos/chefTres.jpg);
 }
 
 .people__name {
